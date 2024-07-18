@@ -4,7 +4,7 @@ using UnityEngine;
 [System.Serializable]
 public class CardImage
 {
-    public int id;
+    public string id;
     public string image_url;
     public string image_url_small;
 }
@@ -12,7 +12,7 @@ public class CardImage
 [System.Serializable]
 public class Datum
 {
-    public int id;
+    public string id;
     public List<CardImage> card_images;
 }
 
